@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 import { superAdminDocument } from "../../model/lookups/superAdminModel";
 import logger from "../../utils/logger";
-import * as superAdminRepository from "./superAdminRepository";
+import * as superAdminRepository from "./superAdminRepositorys";
 
 export const createSuperAdminService = async (
     superAdminData: Partial<superAdminDocument>,
